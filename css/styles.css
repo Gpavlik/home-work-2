@@ -1,0 +1,247 @@
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+}
+ .header-logo {
+     color: black;
+ 
+}
+
+.link {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;}
+.active-link {
+color: #2196F3
+}
+.link:hover, .link:focus
+{
+color: #2196F3;
+cursor: pointer;
+}
+.conact-list:hover, .conact-list:focus {color: #2196F3;
+cursor: pointer;
+}
+.contact-mail {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #2196F3;
+
+}
+
+.contact-phone {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+.referent {
+list-style-type: none;
+}
+
+.contact {
+list-style-type: none;
+}
+
+
+.hero {
+    
+    background: #2F303A;
+    
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.propertie {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+.item {
+    list-style-type: none;
+}
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    list-style-type: none;
+}
+
+.subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.about-us>.title, .team>.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.card {
+    list-style-type: none;
+}
+
+.works-image {}
+
+.team {}
+
+.cards {}
+
+.card-description {
+    list-style-type: none;
+}
+
+.team-image {}
+
+.name {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.position {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.footer .contact-mail, .footer .contact-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+    color: white
+}
+
+.post {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.works>.title {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+.button-section{
+list-style-type: none;
+}
+.btn {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border: 0;
+    cursor: pointer;
+}
+.select-btn {
+    background: #2196F3;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88x;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+}
+.btn:hover, .btn:focus {
+    background: #2196F3;
+color: white;
+}
+.works-cards {}
+
+.works-card-description {
+    list-style-type: none;
+}
+
+.works-card-description .name, .works-card-description .position {
+    text-align:left;
+}

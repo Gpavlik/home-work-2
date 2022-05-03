@@ -5,43 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="/">Web<span clas="header-logo">Studio</span></a>
+      <a class="logo" href="./index.html">Web<span class="header-logo">Studio</span></a>
       <nav class="navigation">
         <ul class="references">
-          <li class="referent"><a class="link" href="/about">Студия</a></li>
+          <li class="referent"><a class="link" href="./index.html">Студия</a></li>
           <li class="referent">
-            <a class="link" href="/portfolio">Портфолио</a>
+            <a class="link" href="./portfolio.html"><span class="active-link">Портфолио</span></a>
           </li>
           <li class="referent"><a class="link" href="/contact">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
+      <ul class="contact-list">
         <li class="contact">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-mail " href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="contact">
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contact-phone " href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
       <section class="works">
         <h2 class="title">работы</h2>
-        <ul class="select-btn">
-            <li><button class="btn" type="button">Все</button></li>
-            <li><button class="btn" type="button">Веб-сайты</button></li>
-            <li><button class="btn" type="button">Приложения</button></li>
-            <li><button class="btn" type="button">Дизайн</button></li>
-            <li><button class="btn" type="button">Маркетинг</button></li>
+        <ul class="button">
+            <li class="button-section"><button class="btn" type="button"><span class="select-btn">Все</span></button></li>
+            <li class="button-section"><button class="btn" type="button">Веб-сайты</button></li>
+            <li class="button-section"><button class="btn" type="button">Приложения</button></li>
+            <li class="button-section"><button class="btn" type="button">Дизайн</button></li>
+            <li class="button-section"><button class="btn" type="button">Маркетинг</button></li>
         </ul>
         <ul class="works-cards">
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/lhimg.jpg"
               alt="планшет"
               width="370"
@@ -52,7 +58,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/chimg.jpg"
               alt="планшет"
               width="370"
@@ -63,7 +69,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/rhimg.jpg"
               alt="планшет"
               width="370"
@@ -74,7 +80,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/lcimg.jpg"
               alt="планшет"
               width="370"
@@ -85,7 +91,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/ccimg.jpg"
               alt="планшет"
               width="370"
@@ -96,7 +102,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/rcimg.jpg"
               alt="планшет"
               width="370"
@@ -107,7 +113,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/ldimg.jpg"
               alt="планшет"
               width="370"
@@ -118,7 +124,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/cdimg.jpg"
               alt="планшет"
               width="370"
@@ -129,7 +135,7 @@
           </li>
           <li class="works-card-description">
             <img
-              class="Work-image"
+              class="work-image"
               src="./images/portfolio/rdimg.jpg"
               alt="планшет"
               width="370"
@@ -141,16 +147,16 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="/">Web<span clas="footer-logo">Studio</span></a>
-      <ul class="conacts-list">
+      <a class="logo" href="/">Web<span class="footer-logo">Studio</span></a>
+      <ul class="conact-list">
         <li class="contact">
-          <address class="Ukraine">г. Киев, пр-т Леси Украинки, 26</address>
+          <address class="post">г. Киев, пр-т Леси Украинки, 26</address>
         </li>
         <li class="contact">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="contact">
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contact-phone" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </footer>
