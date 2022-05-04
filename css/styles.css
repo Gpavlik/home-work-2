@@ -1,57 +1,71 @@
+:root {
+    --main-text: 'roboto';
+    --logo-text: 'Raleway';
+    --brand-color: #2196F3;
+    --main-text-color: #757575;
+    --title-color: #212121;
+    --fuller-color: #2F303A;
+}
+
+body {
+    font-family: var(--main-text);
+    font-style: normal;
+    font-weight: 500;
+}
 .logo {
-    font-family: 'Raleway';
+    font-family: var(--logo-text);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19; 
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--brand-color);
 }
  .header-logo {
      color: black;
  
 }
-
-.link {font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+.referent{
+    display: inline;
+}
+.link {
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
-color: #212121;}
+color: var(--title-color);
+}
 .active-link {
-color: #2196F3
+color: var(--brand-color)
 }
 .link:hover, .link:focus
 {
-color: #2196F3;
+color: var(--brand-color);
 cursor: pointer;
 }
-.conact-list:hover, .conact-list:focus {color: #2196F3;
+.conact {
+    display: inline;
+}
+.conact-list:hover, .conact-list:focus {color: var(--brand-color);
 cursor: pointer;
 }
-.contact-mail {font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+.contact-mail {
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
-color: #2196F3;
+color: var(--brand-color);
 
 }
 
-.contact-phone {font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+.contact-phone {
+
 font-size: 14px;
 line-height: 1.14;
 text-decoration: none;
 letter-spacing: 0.02em;
-
-color: #757575;
+color: var(--main-text-color);
 
 }
 .referent {
@@ -65,13 +79,9 @@ list-style-type: none;
 
 .hero {
     
-    background: #2F303A;
-    
-}
+    background: var(--fuller-color)}
 
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -97,36 +107,30 @@ margin: -1px;
     list-style-type: none;
 }
 .title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--title-color);
     list-style-type: none;
 }
 
 .subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .about-us>.title, .team>.title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
 
 .card {
@@ -146,29 +150,24 @@ margin: -1px;
 .team-image {}
 
 .name {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-color);
 }
 
 .position {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .footer {
-    background: #2F303A;
+    background: var(--fuller-color);
 }
 
 .footer .contact-mail, .footer .contact-phone {
@@ -180,7 +179,6 @@ color: #212121;
 }
 
 .post {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -203,26 +201,22 @@ margin: -1px;
 }
 .button-section{
 list-style-type: none;
+display: block;
 }
 .btn {
     background: #F5F4FA;
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
     border: 0;
     cursor: pointer;
 }
 .select-btn {
-    background: #2196F3;
+    background: var(--brand-color);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88x;
@@ -231,10 +225,18 @@ list-style-type: none;
     color: #FFFFFF;
     cursor: pointer;
     border: 0;
+    margin-left: auto;
+    margin-right: auto
+}
+.hero .select-btn {
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .btn:hover, .btn:focus {
-    background: #2196F3;
-color: white;
+    background: var(--brand-color);
+    font-weight: 700;
+    color: white;
 }
 .works-cards {}
 
