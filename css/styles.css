@@ -16,7 +16,6 @@ li {
 }
 .logo {
     font-family: var(--logo-text);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19; 
@@ -185,9 +184,7 @@ li {
     margin: -1px;
 }
 .button-section{
-    list-style-type: none;
-    display: block;
-}
+   
 
 .btn {
     background: #F5F4FA;
