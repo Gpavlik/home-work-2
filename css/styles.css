@@ -92,14 +92,14 @@ li {
     clip-path: inset(50%);
     margin: -1px;
 }
-.item {}
-.title {
+.item .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-color);
-    list-style-type: none;
+    ;
 }
 .subtitle {
     font-weight: 400;
@@ -108,7 +108,7 @@ li {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-.about-us>.title, .team>.title {
+.about-us .title, .team .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -133,6 +133,7 @@ li {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    font-weight: 500;
 }
 .position {
     font-weight: 400;
@@ -144,6 +145,7 @@ li {
 }
 .footer {
     background: var(--fuller-color);
+    font-weight: 400;
 }
 .footer .contact-mail, .footer .contact-phone {
     color: rgba(255, 255, 255, 0.6);
@@ -195,20 +197,19 @@ li {
     color: var(--title-color);
     border: 0;
     cursor: pointer;
+    font-weight: 500;
 }
 .select-btn {
     background: var(--brand-color);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88x;
+    line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
     border: 0;
-    margin-left: auto;
-    margin-right: auto
 }
 .hero .select-btn {
     display: block;
